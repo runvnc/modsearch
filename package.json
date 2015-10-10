@@ -1,9 +1,9 @@
 {
   "name": "modsearch",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Search npmjs.com from the terminal",
   "main": "modsearch.js",
-  "bin" : {
+  "bin": {
     "modsearch": "./modsearch.js"
   },
   "scripts": {
@@ -11,7 +11,12 @@
   },
   "author": "",
   "license": "ISC",
-  "keywords": [ "npm", "search", "terminal", "keywords" ],
+  "keywords": [
+    "npm",
+    "search",
+    "terminal",
+    "keywords"
+  ],
   "dependencies": {
     "ANSIdom": "0.0.1",
     "chalk": "^0.5.1",
