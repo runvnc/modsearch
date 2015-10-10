@@ -1,4 +1,4 @@
-Search npmjs.com and show colored terminal output with download counts and descriptions.
+Search npmjs.com and show colored terminal output with star counts and descriptions.
 
 Install: `npm install -g modsearch`
 

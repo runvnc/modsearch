@@ -17,14 +17,12 @@ jsdom.env({ url: 'https://www.npmjs.com/search?q='+keywords,
       var data = {
         name: $(this).find('.name').text(),
         desc: $(this).find('.description').text(),
-        downloads: $(this).find('.quiet:eq(1)').text(),
+        stars: $(this).find('.stars').text(),
       }
       data.name = pad(data.name.substr(0,23),23);
-      var tokens = data.downloads.split(' ');
-      data.downloads = tokens[0];
-      data.downloads = pad(5, data.downloads.substr(0,5))+' ';
+      data.stars = pad(5, data.stars.substr(0,5),' ')+' ';
       data.desc = pad(data.desc.substr(0,48),48);
-      console.log(chalk.yellow(data.downloads), 
+      console.log(chalk.yellow(data.stars), 
                   chalk.magenta(data.name), 
                   chalk.white(data.desc));
     }); 
