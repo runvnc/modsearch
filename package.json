@@ -18,10 +18,7 @@
     "keywords"
   ],
   "dependencies": {
-    "ANSIdom": "0.0.1",
-    "chalk": "^0.5.1",
-    "jsdom": "^2.0.0",
-    "pad": "0.0.5",
-    "request": "^2.51.0"
+    "kexec": "^1.2.0",
+    "node-modules": "^0.1.4"
   }
 }

@@ -1,4 +1,4 @@
-Search npmjs.com and show colored terminal output with star counts and descriptions.
+Search using `node-modules-cli`.  This is just short for `npm i -g node-modules-cli` then `node-modules search [keyword]`.
 
 Install: `npm install -g modsearch`
 
